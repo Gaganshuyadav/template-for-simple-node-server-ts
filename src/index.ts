@@ -9,7 +9,7 @@ app.use(cors());
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Nodejs Server!');
+  res.send('Hello from Nodejs Server!!');
 });
 
 app.get('/health', (req, res) => {
